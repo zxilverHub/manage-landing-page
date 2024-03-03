@@ -57,7 +57,7 @@ main {
 
 nav:not(footer nav) {
     width: 100%;
-    padding: 3rem 12%;
+    padding: 2rem 10%;
 
     display: flex;
     justify-content: space-between;
@@ -96,7 +96,7 @@ nav .logo { margin-top: .5rem; }
 
 .hero {
     width: 100%;
-    padding-block: 15rem 5rem;
+    padding-block: 12rem 5rem;
 
     display: flex;
     justify-content: space-between;
@@ -106,11 +106,11 @@ nav .logo { margin-top: .5rem; }
 
 .hero .left {
     display: flex;
-    padding-top: 3rem;
+    padding-top: 2rem;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    gap: 4rem;
+    gap: 2.7rem;
 }
 
 h1 {
@@ -137,7 +137,7 @@ h1 {
 }
 
 section:not(.testimonial) {
-    padding-inline: 12%;
+    padding-inline: 10%;
 }
 
 .about {
@@ -174,11 +174,7 @@ section:not(.testimonial) {
 
 
 .step-container {
-    gap: 2rem;
-}
-
-.step-container .text {
-    line-height: 2;
+    gap: 1rem;
 }
 
 .step {
@@ -275,8 +271,8 @@ section:not(.testimonial) {
 
 .sponsor {
     width: 100%;
-    padding: 5rem 12% 4rem 12%;
-    margin-top: 8rem;
+    padding: 5rem 10% 4rem 10%;
+    margin-top: 6rem;
 
     display: flex;
     justify-content: space-between;
@@ -297,7 +293,7 @@ section:not(.testimonial) {
 
 footer {
     width: 100%;
-    padding: 5rem 12%;
+    padding: 4rem 10%;
     background-color: var(--dark-blue);
 }
 
@@ -340,7 +336,7 @@ footer .footer-links .footer-nav {
     width: 100%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
